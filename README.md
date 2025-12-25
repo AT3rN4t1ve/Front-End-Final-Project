@@ -1,16 +1,29 @@
-# frontmain
+# Frontend - Medication Management App 📱
 
-A new Flutter project.
+ส่วน Mobile Application ของระบบจัดการยา พัฒนาด้วย Flutter มุ่งเน้นประสบการณ์การใช้งานที่ลื่นไหล ช่วยเตือนความจำและติดตามการทานยาของผู้ใช้
 
-## Getting Started
+## 🛠️ Tech Stack
+* **Framework:** Flutter
+* **Language:** Dart
+* **State Management:** (ระบุถ้ามี เช่น Provider / Bloc / GetX)
 
-This project is a starting point for a Flutter application.
+## ✨ Key Features (ฟีเจอร์หลัก)
+* **User Interface (UI):** หน้าจอ Dashboard ออกแบบมาให้ใช้งานง่าย แสดงรายการยาที่ต้องทานในแต่ละวัน
+* **Medication Reminders:** ระบบแจ้งเตือน (Local Notification) เมื่อถึงเวลาทานยา เพื่อให้ผู้ใช้ไม่พลาดมื้อสำคัญ
+* **Usage History:** แสดงผลประวัติการทานยาในรูปแบบที่เข้าใจง่าย (เช่น กราฟ หรือ ปฏิทิน)
+* **Search Interface:** หน้าจอสำหรับค้นหาข้อมูลยา พร้อมแสดงรายละเอียดคำแนะนำ
 
-A few resources to get you started if this is your first Flutter project:
+## 📸 Screenshots (ตัวอย่างหน้าจอ)
+*(นำรูปภาพหน้าจอใส่ในโฟลเดอร์ assets หรือ screenshots แล้วแก้ path ด้านล่างนี้)*
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 📦 Installation & Run (การติดตั้งและรัน)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. **Prerequisites (สิ่งที่ต้องมี)**
+   * Flutter SDK
+   * Android Studio หรือ VS Code
+   * Emulator หรือ เครื่องจริงสำหรับทดสอบ
+
+2. **Install Packages**
+   ติดตั้ง dependencies ที่จำเป็น
+   ```bash
+   flutter pub get
